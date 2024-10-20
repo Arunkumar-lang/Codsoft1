@@ -1,0 +1,329 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0; 
+}
+
+header  {
+    background: url(robotics.png)center fixed;
+}
+
+
+
+h1{
+    color: black;
+}
+p {
+    color:black;
+}
+
+div.social-media img {
+    margin: 0 10px;
+}
+
+
+header nav ul {
+    list-style: none;
+    background: url(robotics.png)center fixed;
+    color:#333
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+    background-color: green;
+    background: url(robotics.png)center fixed;
+}
+
+header nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    background: url(robotics.png)center fixed;
+    color: black;
+    
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#resumem a {
+    display:inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(83, 128, 0);
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color:green;
+    color: #fff;
+    padding: 1em 0;
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section styles */
+section {
+    padding: 20px 0;
+}
+
+#about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+#about p {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+ 
+
+#skills ul {
+    display:flex;
+    list-style-type: none;
+    text-align: left;
+}
+
+#skills ul li {
+    flex: 1;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color:lightgreen;
+    border-radius: 50px;
+}
+
+#skill ul {
+    display:flex;
+    list-style-type: none;
+    text-align: left;
+}
+
+#skill ul li {
+    flex: 1;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color:lightgreen;
+    border-radius: 50px;
+}
+
+/* Project section styles */
+#projectc {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#projectc h2 {
+    margin-bottom: 20px;
+    color: #333;
+    background-color:rgb(83, 128, 0); ;
+}
+
+.groove {
+    border-style: groove;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    display: inline-block;
+    width: calc(50% - 40px); /* Adjust width for equal sizing and spacing */
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.groove h3 {
+    margin-bottom: 10px;
+    color: lightseagreen;
+}
+
+.groove p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.groove a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.groove img {
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .groove {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+
+/* Project styles */
+/* position section styles */
+
+
+/* positions section styles */
+
+.bery{
+    h2{
+        background-color: rgb(83, 128, 0);
+        color:black
+    }
+}
+
+
+.solid {
+    text-align: top;
+    width: 1500px;
+    height:250px;
+    position: relative; 
+    margin-right: 25%;
+    border-width: 10px; 
+
+}
+
+/* Section and container styles */
+/* Section and container styles */
+/* Section and container styles */
+.solid {
+    width: 1150px;
+    height: auto;
+    position: relative;
+    margin: 0 auto; /* Center the solid section horizontally */
+    border-width: 10px;
+    border-style: solid;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%; /* Ensure boxes take full width */
+}
+
+.ridge {
+    border-style: ridge;
+    padding: 1em;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 8px;
+    background: white;
+}
+
+.ridge h3 {
+    margin: 0 0 10px 0;
+    color:lightseagreen
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: small;
+}
+
+
+
+/* Contact section styles */
+#contact p {
+    text-align: center;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 0 ;
+    border-radius: 8px; 
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #skills ul li {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #projects .project {
+        margin: 20px auto;
+    }
+
+} 
+
+
+
